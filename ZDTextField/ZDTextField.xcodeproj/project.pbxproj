@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924F4F0D1E126B3D008257EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F4F0C1E126B3D008257EA /* AppDelegate.swift */; };
+		924F4F0F1E126B3D008257EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F4F0E1E126B3D008257EA /* ViewController.swift */; };
+		924F4F121E126B3D008257EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924F4F101E126B3D008257EA /* Main.storyboard */; };
+		924F4F151E126B3D008257EA /* ZDTextField.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 924F4F131E126B3D008257EA /* ZDTextField.xcdatamodeld */; };
+		924F4F171E126B3D008257EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924F4F161E126B3D008257EA /* Assets.xcassets */; };
+		924F4F1A1E126B3D008257EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924F4F181E126B3D008257EA /* LaunchScreen.storyboard */; };
+		924F4F251E126B3D008257EA /* ZDTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F4F241E126B3D008257EA /* ZDTextFieldTests.swift */; };
+		924F4F301E126B3D008257EA /* ZDTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F4F2F1E126B3D008257EA /* ZDTextFieldUITests.swift */; };
+		924F4F3E1E126B5D008257EA /* RLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F4F3D1E126B5D008257EA /* RLTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924F4F211E126B3D008257EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924F4F011E126B3D008257EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924F4F081E126B3D008257EA;
+			remoteInfo = ZDTextField;
+		};
+		924F4F2C1E126B3D008257EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924F4F011E126B3D008257EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924F4F081E126B3D008257EA;
+			remoteInfo = ZDTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924F4F091E126B3D008257EA /* ZDTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F4F0C1E126B3D008257EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		924F4F0E1E126B3D008257EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		924F4F111E126B3D008257EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		924F4F141E126B3D008257EA /* ZDTextField.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZDTextField.xcdatamodel; sourceTree = "<group>"; };
+		924F4F161E126B3D008257EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924F4F191E126B3D008257EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		924F4F1B1E126B3D008257EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924F4F201E126B3D008257EA /* ZDTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F4F241E126B3D008257EA /* ZDTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDTextFieldTests.swift; sourceTree = "<group>"; };
+		924F4F261E126B3D008257EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924F4F2B1E126B3D008257EA /* ZDTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F4F2F1E126B3D008257EA /* ZDTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDTextFieldUITests.swift; sourceTree = "<group>"; };
+		924F4F311E126B3D008257EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924F4F3D1E126B5D008257EA /* RLTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924F4F061E126B3D008257EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F4F1D1E126B3D008257EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F4F281E126B3D008257EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924F4F001E126B3D008257EA = {
+			isa = PBXGroup;
+			children = (
+				924F4F0B1E126B3D008257EA /* ZDTextField */,
+				924F4F231E126B3D008257EA /* ZDTextFieldTests */,
+				924F4F2E1E126B3D008257EA /* ZDTextFieldUITests */,
+				924F4F0A1E126B3D008257EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924F4F0A1E126B3D008257EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924F4F091E126B3D008257EA /* ZDTextField.app */,
+				924F4F201E126B3D008257EA /* ZDTextFieldTests.xctest */,
+				924F4F2B1E126B3D008257EA /* ZDTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924F4F0B1E126B3D008257EA /* ZDTextField */ = {
+			isa = PBXGroup;
+			children = (
+				924F4F0C1E126B3D008257EA /* AppDelegate.swift */,
+				924F4F0E1E126B3D008257EA /* ViewController.swift */,
+				924F4F3D1E126B5D008257EA /* RLTextField.swift */,
+				924F4F101E126B3D008257EA /* Main.storyboard */,
+				924F4F161E126B3D008257EA /* Assets.xcassets */,
+				924F4F181E126B3D008257EA /* LaunchScreen.storyboard */,
+				924F4F1B1E126B3D008257EA /* Info.plist */,
+				924F4F131E126B3D008257EA /* ZDTextField.xcdatamodeld */,
+			);
+			path = ZDTextField;
+			sourceTree = "<group>";
+		};
+		924F4F231E126B3D008257EA /* ZDTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				924F4F241E126B3D008257EA /* ZDTextFieldTests.swift */,
+				924F4F261E126B3D008257EA /* Info.plist */,
+			);
+			path = ZDTextFieldTests;
+			sourceTree = "<group>";
+		};
+		924F4F2E1E126B3D008257EA /* ZDTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				924F4F2F1E126B3D008257EA /* ZDTextFieldUITests.swift */,
+				924F4F311E126B3D008257EA /* Info.plist */,
+			);
+			path = ZDTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924F4F081E126B3D008257EA /* ZDTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924F4F341E126B3D008257EA /* Build configuration list for PBXNativeTarget "ZDTextField" */;
+			buildPhases = (
+				924F4F051E126B3D008257EA /* Sources */,
+				924F4F061E126B3D008257EA /* Frameworks */,
+				924F4F071E126B3D008257EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDTextField;
+			productName = ZDTextField;
+			productReference = 924F4F091E126B3D008257EA /* ZDTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		924F4F1F1E126B3D008257EA /* ZDTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924F4F371E126B3D008257EA /* Build configuration list for PBXNativeTarget "ZDTextFieldTests" */;
+			buildPhases = (
+				924F4F1C1E126B3D008257EA /* Sources */,
+				924F4F1D1E126B3D008257EA /* Frameworks */,
+				924F4F1E1E126B3D008257EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924F4F221E126B3D008257EA /* PBXTargetDependency */,
+			);
+			name = ZDTextFieldTests;
+			productName = ZDTextFieldTests;
+			productReference = 924F4F201E126B3D008257EA /* ZDTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		924F4F2A1E126B3D008257EA /* ZDTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924F4F3A1E126B3D008257EA /* Build configuration list for PBXNativeTarget "ZDTextFieldUITests" */;
+			buildPhases = (
+				924F4F271E126B3D008257EA /* Sources */,
+				924F4F281E126B3D008257EA /* Frameworks */,
+				924F4F291E126B3D008257EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924F4F2D1E126B3D008257EA /* PBXTargetDependency */,
+			);
+			name = ZDTextFieldUITests;
+			productName = ZDTextFieldUITests;
+			productReference = 924F4F2B1E126B3D008257EA /* ZDTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924F4F011E126B3D008257EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "rajesh-2098";
+				TargetAttributes = {
+					924F4F081E126B3D008257EA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					924F4F1F1E126B3D008257EA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 924F4F081E126B3D008257EA;
+					};
+					924F4F2A1E126B3D008257EA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 924F4F081E126B3D008257EA;
+					};
+				};
+			};
+			buildConfigurationList = 924F4F041E126B3D008257EA /* Build configuration list for PBXProject "ZDTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924F4F001E126B3D008257EA;
+			productRefGroup = 924F4F0A1E126B3D008257EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924F4F081E126B3D008257EA /* ZDTextField */,
+				924F4F1F1E126B3D008257EA /* ZDTextFieldTests */,
+				924F4F2A1E126B3D008257EA /* ZDTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924F4F071E126B3D008257EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F4F1A1E126B3D008257EA /* LaunchScreen.storyboard in Resources */,
+				924F4F171E126B3D008257EA /* Assets.xcassets in Resources */,
+				924F4F121E126B3D008257EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F4F1E1E126B3D008257EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F4F291E126B3D008257EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924F4F051E126B3D008257EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F4F0F1E126B3D008257EA /* ViewController.swift in Sources */,
+				924F4F151E126B3D008257EA /* ZDTextField.xcdatamodeld in Sources */,
+				924F4F3E1E126B5D008257EA /* RLTextField.swift in Sources */,
+				924F4F0D1E126B3D008257EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F4F1C1E126B3D008257EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F4F251E126B3D008257EA /* ZDTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F4F271E126B3D008257EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F4F301E126B3D008257EA /* ZDTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924F4F221E126B3D008257EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924F4F081E126B3D008257EA /* ZDTextField */;
+			targetProxy = 924F4F211E126B3D008257EA /* PBXContainerItemProxy */;
+		};
+		924F4F2D1E126B3D008257EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924F4F081E126B3D008257EA /* ZDTextField */;
+			targetProxy = 924F4F2C1E126B3D008257EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		924F4F101E126B3D008257EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924F4F111E126B3D008257EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		924F4F181E126B3D008257EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924F4F191E126B3D008257EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924F4F321E126B3D008257EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924F4F331E126B3D008257EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924F4F351E126B3D008257EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.LearnRxSwift.ZDTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		924F4F361E126B3D008257EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.LearnRxSwift.ZDTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		924F4F381E126B3D008257EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.LearnRxSwift.ZDTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDTextField.app/ZDTextField";
+			};
+			name = Debug;
+		};
+		924F4F391E126B3D008257EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.LearnRxSwift.ZDTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDTextField.app/ZDTextField";
+			};
+			name = Release;
+		};
+		924F4F3B1E126B3D008257EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZDTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.LearnRxSwift.ZDTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZDTextField;
+			};
+			name = Debug;
+		};
+		924F4F3C1E126B3D008257EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZDTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.LearnRxSwift.ZDTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZDTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924F4F041E126B3D008257EA /* Build configuration list for PBXProject "ZDTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F4F321E126B3D008257EA /* Debug */,
+				924F4F331E126B3D008257EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924F4F341E126B3D008257EA /* Build configuration list for PBXNativeTarget "ZDTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F4F351E126B3D008257EA /* Debug */,
+				924F4F361E126B3D008257EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924F4F371E126B3D008257EA /* Build configuration list for PBXNativeTarget "ZDTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F4F381E126B3D008257EA /* Debug */,
+				924F4F391E126B3D008257EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924F4F3A1E126B3D008257EA /* Build configuration list for PBXNativeTarget "ZDTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F4F3B1E126B3D008257EA /* Debug */,
+				924F4F3C1E126B3D008257EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		924F4F131E126B3D008257EA /* ZDTextField.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				924F4F141E126B3D008257EA /* ZDTextField.xcdatamodel */,
+			);
+			currentVersion = 924F4F141E126B3D008257EA /* ZDTextField.xcdatamodel */;
+			path = ZDTextField.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 924F4F011E126B3D008257EA /* Project object */;
+}
